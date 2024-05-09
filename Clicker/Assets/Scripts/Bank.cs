@@ -15,5 +15,7 @@ namespace ScriptBank
         {
             _moneyText.text = _money.ToString();
         }
+
+
     }
 }

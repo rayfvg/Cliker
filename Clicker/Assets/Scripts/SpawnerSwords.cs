@@ -1,13 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnerSwords : MonoBehaviour
+namespace SpawnerSwprds
 {
-    [SerializeField] private Sprite SwordMassive;
-
-    public void SpawnSword()
+    public class SpawnerSwords : MonoBehaviour
     {
-        Instantiate(SwordMassive, transform.position, Quaternion.identity, transform);
+        [SerializeField] private GameObject[] _swordMassive;
+
+
+
+       
+        public void SpawnSword()
+        {
+            Instantiate(_swordMassive[1]);
+        }
     }
 }

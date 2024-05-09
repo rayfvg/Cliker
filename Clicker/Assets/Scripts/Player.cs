@@ -1,5 +1,6 @@
 using Enemy;
 using ScriptBank;
+using SpawnerSwprds;
 using UnityEngine;
 
 namespace ScriptsPlayer
@@ -16,8 +17,7 @@ namespace ScriptsPlayer
         public void ApplyDamage()
         {
             _enemy.EnemyHealth -= _playerDamage;
-            _spawnerSwords.SpawnSword();
-            _money.Money += 10;
+            _money.Money += 1;     
         }
     }
 }
