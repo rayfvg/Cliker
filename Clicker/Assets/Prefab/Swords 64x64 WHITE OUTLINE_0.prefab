@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2419229140785661050}
   - component: {fileID: 8854706113097492762}
+  - component: {fileID: 5823270145908157457}
   m_Layer: 0
   m_Name: Swords 64x64 WHITE OUTLINE_0
   m_TagString: Untagged
@@ -25,13 +26,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4704199360388559061}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.35470536, w: 0.9349781}
+  m_LocalRotation: {x: 0, y: 0, z: 0.48639628, w: 0.87373835}
   m_LocalPosition: {x: 1.72, y: -0.44, z: 0}
-  m_LocalScale: {x: 1.3173, y: 1.1904, z: 1}
+  m_LocalScale: {x: 1.9926796, y: 1.8007181, z: 1.5127}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 41.551}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 58.208}
 --- !u!212 &8854706113097492762
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -84,3 +85,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &5823270145908157457
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4704199360388559061}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eae5fb4c8b6b83548a1a2e003039016f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

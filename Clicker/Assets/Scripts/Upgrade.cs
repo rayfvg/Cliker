@@ -19,9 +19,9 @@ public class Upgrade : MonoBehaviour
     {
         if (bank.Money >= _valueBuyUpgrade)
         {
-            _player.PlayerDamage += 3;
+            _player.PlayerDamage += 1;
             bank.Money -= _valueBuyUpgrade;
-            _valueBuyUpgrade += 5;
+            _valueBuyUpgrade += 30;
 
         }
         
