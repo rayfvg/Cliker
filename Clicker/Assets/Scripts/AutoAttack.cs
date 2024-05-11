@@ -11,9 +11,10 @@ namespace Upgrade
         [SerializeField] private int _autoAttackCount; //50
         [SerializeField] private Bank _bank;
         [SerializeField] private Player _player;
-        [SerializeField] private int _autoMoneyLevel;
+        [SerializeField] public int _autoMoneyLevel;
         [SerializeField] private TMP_Text _text;
         [SerializeField] private int _timerForAutoFarm;
+        
 
        
         public void BuyAutoAttack()
@@ -22,7 +23,7 @@ namespace Upgrade
             {
                 _bank.Money -=_autoAttackCount;
                 StartCoroutine(StartAutoFarm());
-                _autoMoneyLevel += 3;
+                _autoMoneyLevel += 1;
                 _autoAttackCount += 100;
                 _text.text = _autoAttackCount.ToString();
             }
